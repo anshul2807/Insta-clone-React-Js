@@ -1,0 +1,13 @@
+.uploading
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.uploading__img
+{
+    object-fit: contain;
+  width: 103px;
+  height: 29px;
+}
