@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+.App{
+  background-color: #FAFAFA;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App__navbar{
+  display: flex;
+  flex-direction: row;
+  
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #DBDBDB;
+  height: 54px;
+  margin-bottom: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App__navbar img{
+  padding-left: 200px;
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar__img{
+  object-fit: contain;
+  width: 103px;
+  height: 29px;
+  
+  padding-top: 15px;
+}
+.App__posts{
+  margin-left: 200px;
+}
+.App__signup
+{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.app__logincontainer{
+ display: flex;
+ flex-direction: row;
+
+  
+  margin-top: 10px;
+}
+.app__logincontainer_signup
+{
+  height: 40px;
+ 
+
+}
+.app__logincontainer_signin
+{
+  height: 40px;
+ margin-left: 459px;
 }
 
-.App-link {
-  color: #61dafb;
+.uploadsection
+{
+  border: 1px solid #DBDBDB;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.uploadsection Button
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.app__logoutcontainer
+{
+  display: flex;
+  flex-direction: row;
+  margin-left: 630px;
+}
+.app__logoutcontainer Button{
+  height: 40px;
+  margin-top: 10px;
+}
+.posts__Avatar
+{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.logo-insta
+{
+  
 }
