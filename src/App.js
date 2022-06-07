@@ -97,7 +97,7 @@ function App() {
       
      <div className="App__navbar">
        <div className="logo-insta">
-       <img className="navbar__img" src="https://logo-logos.com/wp-content/uploads/2016/10/Instagram_logo_wordmark_logotype.png"/>
+       <img className="navbar__img" src="https://i.ibb.co/Z8Qdtb4/bangkok-thailand-may-14-2016-260nw-435629701.webp"/>
      
        </div>
     
@@ -116,12 +116,12 @@ function App() {
       (
         <div className="app__logincontainer">
           <div className="app__logincontainer_signin">
-          <Button variant="contained" color="primary" style={{marginLeft:"200px"}} type="button" onClick={()=>setopensignin(true)} >
+          <Button variant="contained" color="primary" style={{marginLeft:"150px"}} type="button" onClick={()=>setopensignin(true)} >
           Sign In
          </Button>
         </div>
         <div className="app__logincontainer_signup">
-        <Button variant="contained" color="primary" style={{marginLeft:"200px"}} type="button" onClick={()=>setopen(true)} >
+        <Button variant="contained" color="primary" style={{marginLeft:"100px"}} type="button" onClick={()=>setopen(true)} >
         Sign Up
         </Button>
         </div>
@@ -145,7 +145,7 @@ function App() {
               <form className="App__signup">
                 <center>
                     <img className="navbar__img"
-                    src="https://logo-logos.com/wp-content/uploads/2016/10/Instagram_logo_wordmark_logotype.png"/>
+                    src="https://i.ibb.co/Z8Qdtb4/bangkok-thailand-may-14-2016-260nw-435629701.webp"/>
                 </center>
                     <Input
                     type="email"
@@ -180,7 +180,7 @@ function App() {
               <form className="App__signup">
                 <center>
                     <img className="navbar__img"
-                    src="https://logo-logos.com/wp-content/uploads/2016/10/Instagram_logo_wordmark_logotype.png"/>
+                    src="https://i.ibb.co/Z8Qdtb4/bangkok-thailand-may-14-2016-260nw-435629701.webp"/>
                 </center>
                     <Input
                     type="email"
